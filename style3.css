@@ -1,0 +1,50 @@
+.row {
+    display: flex;
+    width: 100%;
+}
+.button5 {border-radius: 50%;}
+.card{
+    border-radius:3% ;
+}
+
+.category-images{
+    width: 100%;
+}
+
+.col-6{
+    position: relative;
+    flex-basis: 50%;
+    display: flex;
+    align-items: space-between;
+}
+.curved-bg{
+    height: 430px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    
+}
+.beauty1 {
+    position: absolute;
+    height: 450px;
+    bottom: 0px;
+    right: -60px;
+    top:-15px
+    
+}
+.p{
+    font-weight:lighter ;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width:700px){
+    .row{
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .col-6{
+        flex: basis 100%;
+        margin-bottom: 50px;
+    }
+}
